@@ -4,5 +4,5 @@
 https://github.com/naoyahieda/amplify_react_ci_cd をデプロイしている
 
 ## 環境はproductionとstagingの２つ
-productionはhttps://amptf-staging.naoyahieda.com/
-stagingはhttps://amptf-production.naoyahieda.com/
+productionはhttps://amp-tf-staging.naoyahieda.com/
+stagingはhttps://amp-tf-production.naoyahieda.com/
