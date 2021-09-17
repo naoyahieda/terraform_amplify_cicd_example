@@ -2,4 +2,12 @@ access_key = ""
 
 secret_key = ""
 
+github_repository_url = "https://github.com/naoyahieda/amplify_react_ci_cd" # 例えば
+
 github_access_token = ""
+
+git_production_branch = ""
+
+git_staging_branch = ""
+
+domain_name = ""

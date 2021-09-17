@@ -1,7 +1,7 @@
 // 本体
 resource "aws_amplify_app" "testofamplify" {
   name       = "amplify-tf-react"
-  repository = "https://github.com/naoyahieda/amplify_react_ci_cd"
+  repository = var.github_repository_url
   access_token = var.github_access_token
 
   # The default build_spec added by the Amplify Console for React.

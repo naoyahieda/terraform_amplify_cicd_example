@@ -1,6 +1,6 @@
 resource "aws_amplify_domain_association" "example" {
   app_id      = aws_amplify_app.testofamplify.id
-  domain_name = "naoyahieda.com"
+  domain_name = var.domain_name
 
   sub_domain {
     branch_name = aws_amplify_branch.master.branch_name

@@ -1,7 +1,7 @@
 // mainブランチ
 resource "aws_amplify_branch" "master" {
   app_id      = aws_amplify_app.testofamplify.id
-  branch_name = "main"
+  branch_name = var.git_production_branch
 
   framework = "React"
   stage     = "PRODUCTION"
@@ -16,7 +16,7 @@ resource "aws_amplify_branch" "master" {
 // statingブランチ
 resource "aws_amplify_branch" "stating" {
   app_id      = aws_amplify_app.testofamplify.id
-  branch_name = "stating"
+  branch_name = var.git_staging_branch
 
   framework = "React"
   stage     = "DEVELOPMENT"
